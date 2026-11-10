@@ -1,0 +1,11 @@
+VAR
+	doorSM : DoorStateMachine;
+	gAxis01 : ACP10AXIS_typ;
+	gAxis01_DiDoIf : SdcDiDoIf_typ := (0);
+	gAxis01_DrvIf : SdcDrvIf16_typ := (0);
+	gAxis01_EncIf1 : SdcEncIf16_typ := (0);
+	gAxis01_HW : SdcHwCfg_typ := (0);
+	gAxis01_MotorStep0 : INT := (0);
+	ledSM : LedStateMachine;
+	stateMachine : DriveStateMachine;
+END_VAR
